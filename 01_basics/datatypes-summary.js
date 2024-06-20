@@ -34,3 +34,27 @@ const myFunction = function () {
 myFunction()
 
 console.log(typeof null); // object
+
+// Memory
+
+// stack (Primitive) , Heap (non-primitive)
+
+let myName = "krishna";
+let anotherName = myName; // copies the value
+
+anotherName = "KSM"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+  email: "k@gmail.com",
+  upi: "user@upi.com"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
