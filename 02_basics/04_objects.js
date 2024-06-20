@@ -44,3 +44,16 @@ const course = {
 const { courseInstructor: instructor } = course
 
 // console.log(instructor)
+
+// JSON format
+
+// {
+//   "name": "krishna",
+//   "cName": "js in hindi",
+//   "price": "free"
+// }
+
+[
+  {},
+  {}
+]
